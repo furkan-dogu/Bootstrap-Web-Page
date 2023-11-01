@@ -1,0 +1,8 @@
+.hero {
+    height: calc(100vh - 56px);
+    background-image: url(./img/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 15%;
+    color: #800080;
+}
