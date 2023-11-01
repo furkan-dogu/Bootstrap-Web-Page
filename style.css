@@ -3,8 +3,9 @@
     background-image: url(./img/banner.jpeg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     padding-top: 20%;
-    color: #800080;
+    color: lightcoral;
 }
 
 #services span {
@@ -48,12 +49,11 @@
 
 #staff .icons i {
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
     line-height: 2.5rem;
-    opacity: .8;
     transition: all .5s;
 }
 
@@ -85,3 +85,53 @@
     height: 40px;
 }
 
+.links a:first-child img {
+    height: 60px;
+}
+
+.links a {
+    transition: transform .5s;
+}
+
+.links a:hover {
+    transform: scale(1.2);
+}
+
+#contact {
+    background-image: url(./img/map.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+.footer {
+    padding: 2.5rem 0 1.3rem;
+}
+
+.up-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #DC3545;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all .5s;
+    opacity: .7;
+}
+
+.up-button:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.up-button:hover i {
+    transform: scale(1.2);
+}
