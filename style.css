@@ -72,3 +72,16 @@
 #staff .icons i:last-child:hover {
     background-color: #0274B3;
 }
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.links img {
+    height: 40px;
+}
+
