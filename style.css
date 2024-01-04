@@ -1,9 +1,7 @@
 .hero {
-    height: calc(100vh - 56px);
+    min-height: 100vh;
     background-image: url(./img/banner.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding-top: 20%;
     color: lightcoral;
 }
